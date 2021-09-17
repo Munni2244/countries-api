@@ -1,0 +1,18 @@
+.box{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 20px;
+
+}
+.div img {
+    width: 300px;
+
+}
+.div{
+    border: 1px solid green;
+    background-color: rgb(194, 163, 178);
+  padding: 10px;
+  border-radius: 20px;
+}
